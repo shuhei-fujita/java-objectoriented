@@ -6,8 +6,14 @@ class Calc {
 }
 
 class Calculation {
-    public static void main() {
+    static void disp() {
+        int c;
         Calc calc = new Calc();
-        System.out.println(calc.add(3, 9));
+        c = calc.add(8, 9);
+        System.out.println("8 + 9 = " + c);
+    }
+
+    public static void main(String[] args) {
+        disp();
     }
 }
